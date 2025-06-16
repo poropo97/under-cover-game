@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    /* Projects */
+    // "incremental": true,
+    // "composite": true,
+    // "tsBuildInfoFile": "./.tsbuildinfo",
+    // "disableSourceOfProjectReferenceRedirect": true,
+    // "disableSolutionSearching": true,
+    // "disableReferencedProjectLoad": true,
+
+    /* Language and Environment */
+    "target": "es2016",
+    // "lib": ["es2016"],
+
+    /* Modules */
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+
+    /* Emit */
+    "skipLibCheck": true
+
+    /* Optional uncommented settings you can consider adding:
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    */
+  }
+}
